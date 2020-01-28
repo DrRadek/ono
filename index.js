@@ -28,13 +28,16 @@ client.on('message', message => {
 		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
 		
 	}
-	if (command === `:retardpoo:`) {
-		message.channel.send(`:retardpoo:`);
+	if (command === `:retardpoo:` || command === `<:retardpoo:671441317519294474>`) {
+		message.channel.send(`<:retardpoo:671441317519294474>`);
 		
 	}
-	if (command === `dafyt`) {
-		message.channel.send(`To byl ten prezident ne?\n :migas: `);
+	if (command === `dafyt` || command == `<@!498531178266230784>`) {
+		message.channel.send(`To byl ten prezident ne?\n <:migas:671441514118774814> `);
 		
+	}
+	if(command === `jirkaa` || command === `jirka` || command === `zdenda` || command === `zdeněk`){
+		message.channel.send(`C..o t-o j-e t-e-n za--seka--nec?`)
 	}
 	
 });

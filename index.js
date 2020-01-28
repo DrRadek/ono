@@ -10,19 +10,21 @@ client.on('ready', () => {
 client.on('message', message => {
 	console.log(message.content);
 	if (message.author.bot) return;
-	if (message.content === `oňo` || message.content === `Oňo` || message.content === `OŇO`) {
+	const args = message.content.slice(prefix.length).split(' ');
+	const command = args.shift().toLowerCase();
+	if (command === `oňo`) {
 		message.channel.send(`> Oňo znamená cibule :onion:`);
 	}
-	if (message.content === `pes` || message.content === `Pes` || message.content === `Pes`) {
+	if (command === `pes`) {
 		message.channel.send(`Pff.. Radši košiškuu`);
 	}
-	if (message.content === `anime` || message.content === `Anime` || message.content === `ANIME`) {
+	if (command === `anime`) {
 		message.channel.send(`Anime? To carnille nerad`);
 	}
-	if (message.content === `Jaká je nejlepší restaurace?` || message.content === `jaká je nejlepší restaurace?` || message.content === `restaurace`) {
+	if (command === `jaká je nejlepší restaurace?` || command === `restaurace`) {
 		message.channel.send(`Nejlepší restaurace je občerstvení u Nikoly`);
 	}
-	if (message.content === `oňohelp`) {
+	if (command === `oňohelp`) {
 		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
 		
 	}

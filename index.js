@@ -1,11 +1,10 @@
 const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
-const fs = require('fs');
+
 const client = new Discord.Client();
 
 
 
-client.once('ready', () => {
+client.on('ready', () => {
 	console.log('ready');
 });
 client.on('message', message => {
@@ -29,4 +28,4 @@ client.on('message', message => {
 	}
 	
 });
-client.login('NjcxNzE2NjE0Mjk4NjY0OTgz.XjBXAw.dHMEr60s9aMun6smKDAFexE4tQk');
+client.login(process.env.BOT_TOKEN);

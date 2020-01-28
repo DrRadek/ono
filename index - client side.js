@@ -21,17 +21,24 @@ client.on('message', message => {
 	if (command === `anime`) {
 		message.channel.send(`Anime? To carnille nerad`);
 	}
-	if (command === `restaurace`) {
+	if (command === `jaká je nejlepší restaurace?` || command === `restaurace`) {
 		message.channel.send(`Nejlepší restaurace je občerstvení u Nikoly`);
 	}
 	if (command === `oňohelp`) {
 		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
 		
 	}
-	if (command === `:retardpoo:`) {
-		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
+	if (command === `:retardpoo:` || command === `<:retardpoo:671441317519294474>`) {
+		message.channel.send(`<:retardpoo:671441317519294474>`);
 		
+	}
+	if (command === `dafyt` || command == `<@!498531178266230784>`) {
+		message.channel.send(`To byl ten prezident ne?\n <:migas:671441514118774814> `);
+		
+	}
+	if(command === `jirkaa` || command === `jirka` || command === `zdenda` || command === `zdeněk`){
+		message.channel.send(`C..o t-o j-e t-e-n za--seka--nec?`)
 	}
 	
 });
-client.login('NjcxNzE2NjE0Mjk4NjY0OTgz.XjBe-g.DA_cvr1-co5sfIv7XEE8XYCyQfo');
+client.login('NjcxNzE2NjE0Mjk4NjY0OTgz.XjBmKA.NKzokNvOkZhN-i9AeutMvSyWsy0');

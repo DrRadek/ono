@@ -28,6 +28,14 @@ client.on('message', message => {
 		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
 		
 	}
+	if (command === `:retardpoo:`) {
+		message.channel.send(`:retardpoo:`);
+		
+	}
+	if (command === `dafyt`) {
+		message.channel.send(`To byl ten prezident ne?\n :migas: `);
+		
+	}
 	
 });
 client.login(process.env.BOT_TOKEN);

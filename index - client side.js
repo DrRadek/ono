@@ -21,10 +21,14 @@ client.on('message', message => {
 	if (command === `anime`) {
 		message.channel.send(`Anime? To carnille nerad`);
 	}
-	if (command === `jaká je nejlepší restaurace?` || command === `restaurace`) {
+	if (command === `restaurace`) {
 		message.channel.send(`Nejlepší restaurace je občerstvení u Nikoly`);
 	}
 	if (command === `oňohelp`) {
+		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
+		
+	}
+	if (command === `:retardpoo:`) {
 		message.channel.send(`Neřeknu!\nNajdi si svoje oňa sám!!!`);
 		
 	}

@@ -1,2 +1,1 @@
-nothing here
-a
+Index.js - kód

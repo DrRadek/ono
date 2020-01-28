@@ -33,12 +33,21 @@ client.on('message', message => {
 		
 	}
 	if (command === `dafyt` || command == `<@!498531178266230784>`) {
-		message.channel.send(`To byl ten prezident ne?\n <:migas:671441514118774814> `);
+		message.channel.send(`To byl ten prezident ne?\n <:dafyt:671764881468424192>`);
 		
 	}
 	if(command === `jirkaa` || command === `jirka` || command === `zdenda` || command === `zdeněk`){
 		message.channel.send(`C..o t-o j-e t-e-n za--seka--nec?`)
 	}
+	if(command === `cs:go` || command === `csko` || command === `cs`){
+		message.channel.send(`https://www.youtube.com/watch?v=ZjCVwfJTELY`)
+	}
+	if(command === `lol` || command === `lolko`){
+		message.channel.send(`Lolko tu není zakázané! Užívej`)
+	}
+	if(command === `oňák`){
+		message.channel.send(`Ahoj, já jsem oňák, tvoje osobní oňo.\nNa Dej si<:ono:671441790704025611>`)
+	}
 	
 });
-client.login('NjcxNzE2NjE0Mjk4NjY0OTgz.XjBmKA.NKzokNvOkZhN-i9AeutMvSyWsy0');
+client.login('NjcxNzE2NjE0Mjk4NjY0OTgz.XjBqvQ.uYKq5V4-yQST9UCo4kWm5amuqy4');

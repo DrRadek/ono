@@ -33,7 +33,7 @@ client.on('message', message => {
 		
 	}
 	if (command === `dafyt` || command == `<@!498531178266230784>`) {
-		message.channel.send(`To byl ten prezident ne?\n <:dafyt:671764881468424192>`);
+		message.channel.send(`To je ten prezident ne?\n <:dafyt:671764881468424192>`);
 		
 	}
 	if(command === `jirkaa` || command === `jirka` || command === `zdenda` || command === `zdeněk`){

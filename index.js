@@ -32,9 +32,9 @@ client.on('message', message => {
 		message.channel.send(`<:retardpoo:671441317519294474>`);
 		
 	}
-	if (command === `dafyt` || command == `<@!498531178266230784>`) {
-		message.channel.send(`To je ten prezident ne?\n <:dafyt:671764881468424192>`);
-		
+	if (command === `dafyt` || command === `dafti` || command == `<@!498531178266230784>`) {
+		message.channel.send(`To je ten prezident ne?`);
+		message.channel.send(`<:dafyt:671764881468424192>`);
 	}
 	if(command === `jirkaa` || command === `jirka` || command === `zdenda` || command === `zdeněk`){
 		message.channel.send(`C..o t-o j-e t-e-n za--seka--nec?`)
